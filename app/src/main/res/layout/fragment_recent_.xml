@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown"
+    tools:context=".Recent_Fragment">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            >
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/baseline_menu_24"
+
+                >
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Search"
+                    />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/baseline_keyboard_voice_24"
+                    />
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="New Releases"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="340dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="340dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:src="@drawable/blur"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:src="@drawable/blur"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:src="@drawable/blur"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Curabit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="565dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:src="@drawable/corridor"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="135dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:src="@drawable/corridor"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="135dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:src="@drawable/corridor"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="135dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quisque"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="565dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:src="@drawable/imgw"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="250dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:src="@drawable/imgw"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="250dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:src="@drawable/imgw"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="250dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aliqua..."
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="565dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One Republic"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="285dp"
+            android:textSize="15dp"
+
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="New Releases"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="100dp"
+            />
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/blur"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Mauris Sagi..."
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="255dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kodaline"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="280dp"
+            android:textSize="15dp"
+            />
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            app:menu="@menu/button_menu"
+            android:layout_marginRight="200dp"
+            android:layout_marginTop="258dp"
+            />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/pic2"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="200dp"
+            />
+
+        <TextView
+            android:layout_width="168dp"
+            android:layout_height="60dp"
+            android:text="Aliquam"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="260dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/button_menu"
+            android:layout_marginTop="258dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginRight="15dp"
+            />
+
+
+
+
+
+</RelativeLayout>
